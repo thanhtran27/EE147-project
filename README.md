@@ -185,7 +185,7 @@ GPU still executes faster. Furthermore, the predicted labels produced by both th
 are identical, confirming that the GPU acceleration didn’t compromise the accuracy of the
 program. However, the acceleration program can still be improved in the future since there’s still
 under-utilization of the GPU likely due to low grid sizes. With more optimization the
-performance could be enhanced even further.
+performance could be enhanced even further.<br />
 ![image](https://github.com/user-attachments/assets/86254fb2-47f6-4fe6-9ab7-73625754d2dd)
 ![image](https://github.com/user-attachments/assets/d4779423-f913-48b3-ac26-48cc0a957c8a)
 
@@ -197,7 +197,7 @@ anticipated speedup. However, both the CPU and GPU resulted in identical theta o
 indicating that the GPU is correctly implementing the Linear Regression process. The reason
 why the GPU took longer to run is likely due to the kernel not being fully optimized for the
 problem size, and atomic operations. Furthermore, the data set used(Iris) might not fully utilize
-the GPU’s capabilities. Larger datasets might result in a better performance gain from the GPU.
+the GPU’s capabilities. Larger datasets might result in a better performance gain from the GPU.<br />
 ![image](https://github.com/user-attachments/assets/bb2b21b2-3692-45cf-ae9b-2c50c5aa0a97)
 ![image](https://github.com/user-attachments/assets/5551e317-a4f8-48f5-8b33-bdd086d2e3b7)
 
